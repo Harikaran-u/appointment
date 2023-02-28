@@ -1,0 +1,98 @@
+/* Write your CSS here */
+.home-app-cont {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content-cont {
+  height: 900px;
+  max-width: 1200px;
+  background-color: aliceblue;
+  border-radius: 12px;
+  border: 0px solid;
+  padding: 20px;
+  margin-left: 20px;
+}
+.title {
+  font-family: Roboto;
+  font-size: 36px;
+  color: #000000;
+  font-weight: bold;
+}
+.label-text {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #b5b7c4;
+}
+.appointment-input {
+  height: 28px;
+  outline: none;
+  width: 280px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #b5b7c4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.add-btn {
+  background-color: #8b5cf6;
+  border-radius: 3px;
+  color: #ffffff;
+  border: 0px solid;
+  font-family: Roboto;
+  font-size: 12px;
+  width: 46px;
+  height: 28px;
+  margin-top: 10px;
+}
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+.appointment-form-cont {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+}
+.add-cont {
+  display: flex;
+  flex-direction: column;
+}
+.hr-line {
+  width: 100%;
+  border: 1px solid #b5b7c4;
+  margin-top: 20px;
+}
+.app-list-head {
+  font-family: Roboto;
+  font-size: 24px;
+  color: #000000;
+  font-weight: bold;
+}
+.star-text {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #000000;
+}
+.list-bottom-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.star-text {
+  border-radius: 14px;
+  height: 28px;
+  width: 60px;
+  color: #8b5cf6;
+  font-family: Roboto;
+  font-size: 10px;
+  border: 2px solid #9897f0;
+  background-color: transparent;
+}
+.display-img {
+  width: 50%;
+}

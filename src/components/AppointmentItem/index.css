@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.li-cont {
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 12px;
+  margin-right: 10px;
+}
+.appointment-list-cont {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 300px;
+  height: 100px;
+}
+.star {
+  margin-top: 10px;
+  height: 16px;
+  width: 16px;
+}
+.list-name {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 14px;
+}
+.date {
+  color: #b5b7c4;
+  font-family: Roboto;
+  font-size: 10px;
+}
+.info-cont {
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+}
